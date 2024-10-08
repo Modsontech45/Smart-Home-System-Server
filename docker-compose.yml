@@ -1,0 +1,8 @@
+services:
+  esp32-server:
+    build: .
+    ports:
+      - "6062:3000"
+    volumes:
+      - .:/usr/src/app
+    restart: always

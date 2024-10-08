@@ -1,0 +1,16 @@
+{
+  "name": "SHS-Server",
+  "version": "1.0.0",
+  "description": "ESP32 server for fetching data",
+  "main": "app.js",
+  "author":"Modson Tande",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "packageManager": "yarn@4.5.0",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
